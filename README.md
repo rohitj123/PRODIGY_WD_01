@@ -1,6 +1,5 @@
 # Responsive landing page using HTML CSS & JavaScript
 
-### [Watch it on YouTube](https://youtu.be/RdCJmh_Hi5k)
 
 #### Responsive landing page using HTML CSS & JavaScript
 
