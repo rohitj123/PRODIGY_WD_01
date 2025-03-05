@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="./css/form.css">
+	<link rel="stylesheet" href="./css/style.css" />
+
+    <!-- ====  REMIXICON CDN ==== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- ==== ANIMATE ON SCROLL CSS CDN  ==== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+	<!-- ==== HEADER ==== -->
+    <header class="container header">
+		<!-- ==== NAVBAR ==== -->
+		<nav class="nav">
+		  <div class="logo">
+			<h2>Devkit.</h2>
+		  </div>
+  
+		  <div class="nav_menu" id="nav_menu">
+			<button class="close_btn" id="close_btn">
+			  <i class="ri-close-fill"></i>
+			</button>
+  
+			<ul class="nav_menu_list">
+			  <li class="nav_menu_item">
+				<a href="index.html" class="nav_menu_link">Home</a>
+			  </li>
+			  <li class="nav_menu_item">
+				<a href="about.html" class="nav_menu_link">about</a>
+			  </li>
+			  <li class="nav_menu_item">
+				<a href="#" class="nav_menu_link">service</a>
+			  </li>
+			  <li class="nav_menu_item">
+				<a href="./form/form.html" class="nav_menu_link">contact</a>
+			  </li>
+			</ul>
+		  </div>
+  
+		  <button class="toggle_btn" id="toggle_btn">
+			<i class="ri-menu-line"></i>
+		  </button>
+		</nav>
+	  </header>
+	<form class="form">
+		<div class="form-control">
+		<label for="name">Name:-</label>
+		<input type="text" name="name" placeholder="Name">
+	</div>
+	
+	<div class="form-control">
+		<label for="email">E-mail:-</label>
+		<input type="email" name="email" placeholder="E-mail">
+	</div>
+	<div class="form-control">
+		<label for="age">Age:</label>
+		<input type="number" name="age" placeholder="Age">
+	</div>
+	<div class="form-control">
+		<label for="role">Which option best describes you?</label>
+		<select name="role">
+			<option value="student">Student</option>
+			<option value="intern">Intern</option>
+			<option value="professional">Professional</option>
+			<option value="other">Other</option>
+		</select>
+	</div>
+		<div class="form-control">
+			<label for="radio">
+				Would you recommend GeeksforGeeks to a friend?
+			</label>
+			<input type="radio" name="yes">Yes</input><br>
+			<input type="radio" name="no">No</input><br>
+			<input type="radio" name="maybe">Maybe</input><br>
+		</div>
+		<div class="form-control">
+			<label for="language">Languages and Frameworks known (Check all that apply)</label>
+			<input type="checkbox">C</input><br>
+			<input type="checkbox">C++</input><br>
+			<input type="checkbox">C#</input><br>
+			<input type="checkbox">Java</input><br>
+			<input type="checkbox">Python</input><br>
+			<input type="checkbox">JavaScript</input><br>
+			<input type="checkbox">React</input><br>
+			<input type="checkbox">Angular</input><br>
+			<input type="checkbox">Django</input><br>
+			<input type="checkbox">Spring</input><br>
+		</div>
+		<div class="form-control">
+			<label for="comment">Any comments or suggestions</label>
+			<textarea name="comment" placeholder="Enter your Comment Here"></textarea>
+		</div>
+		<div class="form-control">
+			<button type="submit" value="Submit">Submit</button>
+		</div>
+	</form>
+	<footer class="footer">
+		&copy Copyright RP Jain Creation<br>
+	</footer>
+	<!-- ==== ANIMATE ON SCROLL JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- ==== GSAP CDN ==== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <!-- ==== SCRIPT.JS ==== -->
+    <script src="./script.js" defer></script>
+</body>
+</html>
